@@ -4,7 +4,9 @@ var a = ['dog' , 'cat' , 'boom'];
 console.log(a.length);
 // answer comes as 3 
 a[20] = 'fox';
+
 console.log(a.length);
+// because array index start from the 0 index
 // answer comes as 21
 
 // for loop simple
@@ -24,7 +26,7 @@ for (var i=0;i<6;i++){
 console.log(str);
 // output : 0 1 2 3 4 5 
 
-
+/* because of setTimeout prop
 for (var i =1 ; i<6;i++){
     setTimeout( function (){
         console.log(i + " ");
@@ -32,3 +34,30 @@ for (var i =1 ; i<6;i++){
 }
 
 // 5 times 6 will get printed bcz var don't have the block scope
+
+// we can use let instad of var
+
+for (let i=0;i<6;i++){
+    
+    setTimeout(function (){
+        console.log(i+ " ");
+    },i * 1000);
+}
+*/
+
+// output : 0 1 2 3 4 5 every number in a seperated line
+
+// call in js 
+
+function uk(message){
+    return "mickey" + " " + message + " " +   this.name ;
+}
+
+obj = {name : "mouse"}
+
+var pr = uk.call(obj , "loves");
+// loves is transmitted as an argument to the funcntion uk 
+console.log(typeof(pr))
+// string 
+console.log(pr)
+// sky taara 
