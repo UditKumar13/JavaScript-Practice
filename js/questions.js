@@ -1,3 +1,4 @@
+console.log("questions.js starts here");
 console.log("hi");
 
 var a = ['dog' , 'cat' , 'boom'];
@@ -46,18 +47,7 @@ for (let i=0;i<6;i++){
 */
 
 // output : 0 1 2 3 4 5 every number in a seperated line
+console.log("questions.js ends here");
+console.log("-------- ||||||||||||||||||||| ----------");
 
-// call in js 
 
-function uk(message){
-    return "mickey" + " " + message + " " +   this.name ;
-}
-
-obj = {name : "mouse"}
-
-var pr = uk.call(obj , "loves");
-// loves is transmitted as an argument to the funcntion uk 
-console.log(typeof(pr))
-// string 
-console.log(pr)
-// sky taara 
