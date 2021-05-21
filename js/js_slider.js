@@ -1,7 +1,7 @@
 // lets make an image slider 
 var i=0; //start time
 var images = [] ;  
-var time = 3000;
+var time = 4000;
 
 //Image List 
 images[0] = './image1.jpg';
