@@ -7,3 +7,9 @@ h1{
     color: black;
     text-align: center;
 }
+.para{
+    background-color: black;
+    color:white;
+    width:10%;
+  text-align: center;
+}
