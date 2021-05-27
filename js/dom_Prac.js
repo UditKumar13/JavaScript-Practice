@@ -29,4 +29,21 @@ console.log(two);
 //access by tag name 
 const uk = document.getElementsByTagName('para');
 
-//
+//change text 
+const va2 = document.querySelectorAll('p');
+va2.forEach((para)=>{
+para.innerText += ' I hate u ';
+})
+
+const Bo = document.getElementById('boom');
+
+Bo.innerHTML += '<h1> Go to hell </h1>'
+
+const arr = ['uk','adi' , 'hemu'];
+
+arr.forEach((person)=>{
+Bo.innerHTML += `<p> My name is ${person} </p>`
+})
+
+
+
