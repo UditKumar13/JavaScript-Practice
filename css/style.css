@@ -13,3 +13,11 @@ h1{
     width:10%;
   text-align: center;
 }
+
+#boom{
+    background-color: red;
+    color: white;
+    font : solid bold ;
+    font-size: 25px;
+    width:10%;
+}
